@@ -11,7 +11,6 @@
   "license": "ISC",
   "dependencies": {
     "sunrise-sunset-js": "^2.1.2",
-    "wallpaper": "^4.4.1",
-    "wallpaper-macos": "^1.0.4"
+    "wallpaper": "^4.4.1"
   }
 }
