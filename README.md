@@ -11,16 +11,22 @@ As a fan of the [Firewatch](https://www.firewatchgame.com/) game, I had an idea 
 3. Update the `list.js` with the desired order and slots. The start value is the minutes since midnight and you can use `sunrise` and `sunset` values to sync the change with the daylight.
 4. Install all necessary libraries:
 
-> npm install
-> npm install -g forever
+```bash
+npm install
+npm install -g forever
+```
 
 ## Start
 
-> forever start ./scheduler.js
+```bash
+forever start ./scheduler.js
+```
 
 ## Stop
 
-> forever stop ./scheduler.js
+```bash
+forever stop ./scheduler.js
+```
 
 ## Setup, part 2: Set the wallpaper (macOS)
 
@@ -28,7 +34,7 @@ Since macOS doesn't allow changing wallpapers on all spaces at once, there is a 
 
 1. Go to your Desktop & screensaver settings
 2. Add the wallpaper folder as one of the available folders
-3. For every desktop, select the "active.jpg" (last item) as your current wallpaper
+3. For every desktop, select the `active.jpg` (last item) as your current wallpaper
 
 ## TODO
 
